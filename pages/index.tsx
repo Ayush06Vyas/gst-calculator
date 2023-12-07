@@ -37,8 +37,11 @@ export default function Home() {
 
   return (
     <main
-      className={`flex min-h-screen bg-gray-950 flex-col items-center justify-between md:p-12 p-6`}
+      className={`flex min-h-screen bg-gray-950 justify-between md:p-12 p-6`}
     >
+      <div className="header-container self-start mb-12 border-solid border-white border-4 p-4">
+        <h2 className="leading-none">Ayush's GST Calculator App</h2>
+      </div>
       <div className="flex columns-2 rounded-lg shadow-2xl bg-gray-900 md:p-10 p-2 divide-x">
         <div className="flex flex-col max-w-sm p-4">
           <div>
@@ -132,7 +135,20 @@ export default function Home() {
               </div>
             </div>
           </div>
+          <div className="footer-container text-center text-blue mt-6">
+            <a target="_blank" href="https://ayushvyas.com" className="seld-end text-sky-400">
+              ayushvyas.com
+            </a>
+          </div>
         </div>
+      </div>
+      <div className="mb-12  self-start border-solid border-white shadow-3xl border-4 p-4">
+        <a target="_blank"
+          href="https://ayushvyas.com"
+          className="seld-end text-sky-400 underline"
+        >
+          ayushvyas.com
+        </a>
       </div>
     </main>
   );
