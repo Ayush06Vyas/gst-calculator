@@ -115,7 +115,7 @@ export default function Home() {
               <div className="flex flex-col">
                 <div className="my-1 text-sm">Total GST:</div>
                 <div className="my-1">
-                  <h2 className="text-2xl font-bold">
+                  <h2 className="text-lg font-bold">
                     ₹{" "}
                     {totalGst.toLocaleString("en-IN", {
                       maximumFractionDigits: 2,
@@ -126,7 +126,7 @@ export default function Home() {
               <div className="flex flex-col px-4">
                 <div className="my-1 text-sm">Post-GST Amount:</div>
                 <div className="my-1">
-                  <h2 className="text-2xl font-bold">
+                  <h2 className="text-lg font-bold">
                     ₹{" "}
                     {postGstAmount.toLocaleString("en-IN", {
                       maximumFractionDigits: 2,
@@ -146,7 +146,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="mb-12 invisible md:visible mt-6 md:mt-0 md:self-start border-solid border-white shadow-3xl min-w-[244px] text-center border-4 p-4">
+        <div className="mb-12 invisible md:visible mt-6 md:mt-0 md:self-start border-solid border-white shadow-3xl min-w-[244px] text-center border-4 md:p-4">
           <a
             target="_blank"
             href="https://ayushvyas.com"
@@ -156,7 +156,7 @@ export default function Home() {
           </a>
         </div>
       </div>
-      <div className="flex flex-col mt-4 md:mt-10 md:w-6/12 self-center rounded-lg shadow-2xl bg-gray-900 md:p-10 p-2">
+      <div className="flex flex-col mt-4 md:mt-10 md:w-6/12 self-center rounded-lg shadow-2xl bg-gray-900 md:p-10 p-8">
       <p className="mt-6 font-bold text-inherit">What is GST?</p>
       <p className="mt-6 text-gray-300">The Goods and Services Tax (GST) is a comprehensive indirect tax levied on the supply of goods and services in India. It has replaced a complex system of multiple indirect taxes and aims to simplify the taxation structure, promote transparency, and eliminate the cascading effect of taxes.</p><br />
 
